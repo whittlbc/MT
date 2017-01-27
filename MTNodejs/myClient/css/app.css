@@ -1,0 +1,90 @@
+html {
+  
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+
+}
+
+.double-sided {
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+@font-face {
+   font-family: Big;
+   src: url(./VeraSerif-Bold.ttf);
+}
+
+@font-face {
+   font-family: Medium;
+   src: url(./VeraSerif.ttf);
+}
+
+@font-face {
+   font-family: Small;
+   src: url(./Asap-Regular.otf);
+}
+
+@font-face {
+   font-family: Track;
+   src: url(./OpenSans-Semibold.ttf);
+}
+
+@font-face {
+   font-family: Artist;
+   src: url(./OpenSans-Regular.ttf);
+}
+
+@font-face {
+   font-family: Arrow;
+   src: url(./arrow_7.ttf);
+}
+
+@font-face {
+   font-family: ArrowsAgain;
+   src: url(./WebSymbols-Regular.otf);
+}
+
+@font-face {
+   font-family: Smaller;
+   src: url(./SDTHREE_0.ttf);
+}
+
+@font-face {
+   font-family: CoverTileFont;
+   src: url(./DistProTh.otf);
+}
+
+@font-face {
+   font-family: Mlight;
+   src: url(./Montserrat-Light.otf);
+}
+
+@font-face {
+   font-family: Mreg;
+   src: url(./Montserrat-Regular.otf);
+}
+
+@font-face {
+   font-family: Mbold;
+   src: url(./Montserrat-Bold.otf);
+}
+
+@font-face {
+   font-family: Tamil;
+   src: url(./WebTamil_Normal.ttf);
+}
+
+
+
+
+
+
+
+
+
