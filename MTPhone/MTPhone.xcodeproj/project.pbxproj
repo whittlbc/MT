@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093C12101ADA158200A58901 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C120F1ADA158200A58901 /* main.m */; };
+		093C12131ADA158200A58901 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C12121ADA158200A58901 /* AppDelegate.m */; };
+		093C12161ADA158200A58901 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C12151ADA158200A58901 /* ViewController.m */; };
+		093C12191ADA158200A58901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093C12171ADA158200A58901 /* Main.storyboard */; };
+		093C121B1ADA158200A58901 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093C121A1ADA158200A58901 /* Images.xcassets */; };
+		093C121E1ADA158200A58901 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093C121C1ADA158200A58901 /* LaunchScreen.xib */; };
+		093C122A1ADA158200A58901 /* MTPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C12291ADA158200A58901 /* MTPhoneTests.m */; };
+		093C123F1ADA163000A58901 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C123E1ADA163000A58901 /* UIKit.framework */; };
+		093C12411ADA163600A58901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C12401ADA163600A58901 /* Foundation.framework */; };
+		093C12431ADA163B00A58901 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C12421ADA163B00A58901 /* CoreBluetooth.framework */; };
+		093C12451ADA163F00A58901 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C12441ADA163F00A58901 /* CoreGraphics.framework */; };
+		093C124A1ADA172600A58901 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C12481ADA172600A58901 /* BLE.m */; };
+		09EEC1141ADA208F009CAE89 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EEC1121ADA208F009CAE89 /* pause.png */; };
+		09EEC1151ADA208F009CAE89 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EEC1131ADA208F009CAE89 /* play.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		093C12241ADA158200A58901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093C12021ADA158200A58901 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093C12091ADA158200A58901;
+			remoteInfo = MTPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		093C120A1ADA158200A58901 /* MTPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		093C120E1ADA158200A58901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093C120F1ADA158200A58901 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		093C12111ADA158200A58901 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		093C12121ADA158200A58901 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		093C12141ADA158200A58901 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		093C12151ADA158200A58901 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		093C12181ADA158200A58901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		093C121A1ADA158200A58901 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		093C121D1ADA158200A58901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		093C12231ADA158200A58901 /* MTPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		093C12281ADA158200A58901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093C12291ADA158200A58901 /* MTPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPhoneTests.m; sourceTree = "<group>"; };
+		093C123E1ADA163000A58901 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		093C12401ADA163600A58901 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		093C12421ADA163B00A58901 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		093C12441ADA163F00A58901 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		093C12471ADA172600A58901 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLE.h; path = ../BLE/BLE.h; sourceTree = "<group>"; };
+		093C12481ADA172600A58901 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLE.m; path = ../BLE/BLE.m; sourceTree = "<group>"; };
+		093C12491ADA172600A58901 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLEDefines.h; path = ../BLE/BLEDefines.h; sourceTree = "<group>"; };
+		09EEC1121ADA208F009CAE89 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		09EEC1131ADA208F009CAE89 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093C12071ADA158200A58901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093C12451ADA163F00A58901 /* CoreGraphics.framework in Frameworks */,
+				093C12431ADA163B00A58901 /* CoreBluetooth.framework in Frameworks */,
+				093C12411ADA163600A58901 /* Foundation.framework in Frameworks */,
+				093C123F1ADA163000A58901 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093C12201ADA158200A58901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093C12011ADA158200A58901 = {
+			isa = PBXGroup;
+			children = (
+				093C120C1ADA158200A58901 /* MTPhone */,
+				093C12261ADA158200A58901 /* MTPhoneTests */,
+				093C120B1ADA158200A58901 /* Products */,
+				093C123B1ADA15BF00A58901 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		093C120B1ADA158200A58901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093C120A1ADA158200A58901 /* MTPhone.app */,
+				093C12231ADA158200A58901 /* MTPhoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093C120C1ADA158200A58901 /* MTPhone */ = {
+			isa = PBXGroup;
+			children = (
+				093C12471ADA172600A58901 /* BLE.h */,
+				093C12481ADA172600A58901 /* BLE.m */,
+				093C12491ADA172600A58901 /* BLEDefines.h */,
+				093C12111ADA158200A58901 /* AppDelegate.h */,
+				093C12121ADA158200A58901 /* AppDelegate.m */,
+				093C12141ADA158200A58901 /* ViewController.h */,
+				093C12151ADA158200A58901 /* ViewController.m */,
+				093C12171ADA158200A58901 /* Main.storyboard */,
+				09EEC1121ADA208F009CAE89 /* pause.png */,
+				09EEC1131ADA208F009CAE89 /* play.png */,
+				093C121A1ADA158200A58901 /* Images.xcassets */,
+				093C121C1ADA158200A58901 /* LaunchScreen.xib */,
+				093C120D1ADA158200A58901 /* Supporting Files */,
+			);
+			path = MTPhone;
+			sourceTree = "<group>";
+		};
+		093C120D1ADA158200A58901 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				093C120E1ADA158200A58901 /* Info.plist */,
+				093C120F1ADA158200A58901 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		093C12261ADA158200A58901 /* MTPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				093C12291ADA158200A58901 /* MTPhoneTests.m */,
+				093C12271ADA158200A58901 /* Supporting Files */,
+			);
+			path = MTPhoneTests;
+			sourceTree = "<group>";
+		};
+		093C12271ADA158200A58901 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				093C12281ADA158200A58901 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		093C123B1ADA15BF00A58901 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				093C12441ADA163F00A58901 /* CoreGraphics.framework */,
+				093C12421ADA163B00A58901 /* CoreBluetooth.framework */,
+				093C12401ADA163600A58901 /* Foundation.framework */,
+				093C123E1ADA163000A58901 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093C12091ADA158200A58901 /* MTPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093C122D1ADA158200A58901 /* Build configuration list for PBXNativeTarget "MTPhone" */;
+			buildPhases = (
+				093C12061ADA158200A58901 /* Sources */,
+				093C12071ADA158200A58901 /* Frameworks */,
+				093C12081ADA158200A58901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTPhone;
+			productName = MTPhone;
+			productReference = 093C120A1ADA158200A58901 /* MTPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		093C12221ADA158200A58901 /* MTPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093C12301ADA158200A58901 /* Build configuration list for PBXNativeTarget "MTPhoneTests" */;
+			buildPhases = (
+				093C121F1ADA158200A58901 /* Sources */,
+				093C12201ADA158200A58901 /* Frameworks */,
+				093C12211ADA158200A58901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093C12251ADA158200A58901 /* PBXTargetDependency */,
+			);
+			name = MTPhoneTests;
+			productName = MTPhoneTests;
+			productReference = 093C12231ADA158200A58901 /* MTPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093C12021ADA158200A58901 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ben Whittle";
+				TargetAttributes = {
+					093C12091ADA158200A58901 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					093C12221ADA158200A58901 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 093C12091ADA158200A58901;
+					};
+				};
+			};
+			buildConfigurationList = 093C12051ADA158200A58901 /* Build configuration list for PBXProject "MTPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093C12011ADA158200A58901;
+			productRefGroup = 093C120B1ADA158200A58901 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093C12091ADA158200A58901 /* MTPhone */,
+				093C12221ADA158200A58901 /* MTPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093C12081ADA158200A58901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093C12191ADA158200A58901 /* Main.storyboard in Resources */,
+				09EEC1151ADA208F009CAE89 /* play.png in Resources */,
+				093C121E1ADA158200A58901 /* LaunchScreen.xib in Resources */,
+				09EEC1141ADA208F009CAE89 /* pause.png in Resources */,
+				093C121B1ADA158200A58901 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093C12211ADA158200A58901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093C12061ADA158200A58901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093C12161ADA158200A58901 /* ViewController.m in Sources */,
+				093C12131ADA158200A58901 /* AppDelegate.m in Sources */,
+				093C12101ADA158200A58901 /* main.m in Sources */,
+				093C124A1ADA172600A58901 /* BLE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093C121F1ADA158200A58901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093C122A1ADA158200A58901 /* MTPhoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		093C12251ADA158200A58901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093C12091ADA158200A58901 /* MTPhone */;
+			targetProxy = 093C12241ADA158200A58901 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		093C12171ADA158200A58901 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093C12181ADA158200A58901 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		093C121C1ADA158200A58901 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093C121D1ADA158200A58901 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		093C122B1ADA158200A58901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		093C122C1ADA158200A58901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		093C122E1ADA158200A58901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MTPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		093C122F1ADA158200A58901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MTPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		093C12311ADA158200A58901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MTPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTPhone.app/MTPhone";
+			};
+			name = Debug;
+		};
+		093C12321ADA158200A58901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MTPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTPhone.app/MTPhone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093C12051ADA158200A58901 /* Build configuration list for PBXProject "MTPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093C122B1ADA158200A58901 /* Debug */,
+				093C122C1ADA158200A58901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093C122D1ADA158200A58901 /* Build configuration list for PBXNativeTarget "MTPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093C122E1ADA158200A58901 /* Debug */,
+				093C122F1ADA158200A58901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093C12301ADA158200A58901 /* Build configuration list for PBXNativeTarget "MTPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093C12311ADA158200A58901 /* Debug */,
+				093C12321ADA158200A58901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 093C12021ADA158200A58901 /* Project object */;
+}

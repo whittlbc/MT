@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09BC76561AD9EEF0005FCA75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BC76551AD9EEF0005FCA75 /* main.m */; };
+		09BC76591AD9EEF0005FCA75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BC76581AD9EEF0005FCA75 /* AppDelegate.m */; };
+		09BC765C1AD9EEF0005FCA75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BC765B1AD9EEF0005FCA75 /* ViewController.m */; };
+		09BC765F1AD9EEF0005FCA75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BC765D1AD9EEF0005FCA75 /* Main.storyboard */; };
+		09BC76611AD9EEF0005FCA75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BC76601AD9EEF0005FCA75 /* Images.xcassets */; };
+		09BC76641AD9EEF0005FCA75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BC76621AD9EEF0005FCA75 /* LaunchScreen.xib */; };
+		09BC76701AD9EEF0005FCA75 /* MTMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BC766F1AD9EEF0005FCA75 /* MTMusicTests.m */; };
+		09BC767B1AD9F0C0005FCA75 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BC767A1AD9F0C0005FCA75 /* AVFoundation.framework */; };
+		09BC767D1AD9F0C9005FCA75 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BC767C1AD9F0C9005FCA75 /* WebKit.framework */; };
+		09EEC1111ADA1BA8009CAE89 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EEC1101ADA1BA8009CAE89 /* Spotify.framework */; };
+		CD7A48EE96ABB8CED467CD60 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F42982156453890CDAEC322D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09BC766A1AD9EEF0005FCA75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09BC76481AD9EEF0005FCA75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09BC764F1AD9EEF0005FCA75;
+			remoteInfo = MTMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09BC76501AD9EEF0005FCA75 /* MTMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BC76541AD9EEF0005FCA75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BC76551AD9EEF0005FCA75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09BC76571AD9EEF0005FCA75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09BC76581AD9EEF0005FCA75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09BC765A1AD9EEF0005FCA75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09BC765B1AD9EEF0005FCA75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09BC765E1AD9EEF0005FCA75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09BC76601AD9EEF0005FCA75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		09BC76631AD9EEF0005FCA75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		09BC76691AD9EEF0005FCA75 /* MTMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BC766E1AD9EEF0005FCA75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BC766F1AD9EEF0005FCA75 /* MTMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTMusicTests.m; sourceTree = "<group>"; };
+		09BC76791AD9EFA8005FCA75 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		09BC767A1AD9F0C0005FCA75 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		09BC767C1AD9F0C9005FCA75 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		09EEC1101ADA1BA8009CAE89 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spotify.framework; path = "../../ios-sdk-7/Spotify.framework"; sourceTree = "<group>"; };
+		4D6352217FC209F414290DC3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B02753B82CE55FBED3776002 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F42982156453890CDAEC322D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09BC764D1AD9EEF0005FCA75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BC767D1AD9F0C9005FCA75 /* WebKit.framework in Frameworks */,
+				09BC767B1AD9F0C0005FCA75 /* AVFoundation.framework in Frameworks */,
+				CD7A48EE96ABB8CED467CD60 /* libPods.a in Frameworks */,
+				09EEC1111ADA1BA8009CAE89 /* Spotify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BC76661AD9EEF0005FCA75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09BC76471AD9EEF0005FCA75 = {
+			isa = PBXGroup;
+			children = (
+				09BC76521AD9EEF0005FCA75 /* MTMusic */,
+				09BC766C1AD9EEF0005FCA75 /* MTMusicTests */,
+				09BC76511AD9EEF0005FCA75 /* Products */,
+				DED300B981CE35947D8AFC17 /* Pods */,
+				FC2A9673F11515E7936F72DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09BC76511AD9EEF0005FCA75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09BC76501AD9EEF0005FCA75 /* MTMusic.app */,
+				09BC76691AD9EEF0005FCA75 /* MTMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09BC76521AD9EEF0005FCA75 /* MTMusic */ = {
+			isa = PBXGroup;
+			children = (
+				09BC76571AD9EEF0005FCA75 /* AppDelegate.h */,
+				09BC76581AD9EEF0005FCA75 /* AppDelegate.m */,
+				09BC765A1AD9EEF0005FCA75 /* ViewController.h */,
+				09BC765B1AD9EEF0005FCA75 /* ViewController.m */,
+				09BC765D1AD9EEF0005FCA75 /* Main.storyboard */,
+				09BC76601AD9EEF0005FCA75 /* Images.xcassets */,
+				09BC76621AD9EEF0005FCA75 /* LaunchScreen.xib */,
+				09BC76531AD9EEF0005FCA75 /* Supporting Files */,
+			);
+			path = MTMusic;
+			sourceTree = "<group>";
+		};
+		09BC76531AD9EEF0005FCA75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09BC76791AD9EFA8005FCA75 /* PrefixHeader.pch */,
+				09BC76541AD9EEF0005FCA75 /* Info.plist */,
+				09BC76551AD9EEF0005FCA75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09BC766C1AD9EEF0005FCA75 /* MTMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				09BC766F1AD9EEF0005FCA75 /* MTMusicTests.m */,
+				09BC766D1AD9EEF0005FCA75 /* Supporting Files */,
+			);
+			path = MTMusicTests;
+			sourceTree = "<group>";
+		};
+		09BC766D1AD9EEF0005FCA75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09BC766E1AD9EEF0005FCA75 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DED300B981CE35947D8AFC17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D6352217FC209F414290DC3 /* Pods.debug.xcconfig */,
+				B02753B82CE55FBED3776002 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC2A9673F11515E7936F72DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09EEC1101ADA1BA8009CAE89 /* Spotify.framework */,
+				09BC767C1AD9F0C9005FCA75 /* WebKit.framework */,
+				09BC767A1AD9F0C0005FCA75 /* AVFoundation.framework */,
+				F42982156453890CDAEC322D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09BC764F1AD9EEF0005FCA75 /* MTMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BC76731AD9EEF0005FCA75 /* Build configuration list for PBXNativeTarget "MTMusic" */;
+			buildPhases = (
+				B491FA258D32C136585BB6DC /* Check Pods Manifest.lock */,
+				09BC764C1AD9EEF0005FCA75 /* Sources */,
+				09BC764D1AD9EEF0005FCA75 /* Frameworks */,
+				09BC764E1AD9EEF0005FCA75 /* Resources */,
+				DA5DFD3FED4EA4A059B2B533 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTMusic;
+			productName = MTMusic;
+			productReference = 09BC76501AD9EEF0005FCA75 /* MTMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09BC76681AD9EEF0005FCA75 /* MTMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BC76761AD9EEF0005FCA75 /* Build configuration list for PBXNativeTarget "MTMusicTests" */;
+			buildPhases = (
+				09BC76651AD9EEF0005FCA75 /* Sources */,
+				09BC76661AD9EEF0005FCA75 /* Frameworks */,
+				09BC76671AD9EEF0005FCA75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09BC766B1AD9EEF0005FCA75 /* PBXTargetDependency */,
+			);
+			name = MTMusicTests;
+			productName = MTMusicTests;
+			productReference = 09BC76691AD9EEF0005FCA75 /* MTMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09BC76481AD9EEF0005FCA75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ben Whittle";
+				TargetAttributes = {
+					09BC764F1AD9EEF0005FCA75 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 2X8HM5UJ6Y;
+					};
+					09BC76681AD9EEF0005FCA75 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 09BC764F1AD9EEF0005FCA75;
+					};
+				};
+			};
+			buildConfigurationList = 09BC764B1AD9EEF0005FCA75 /* Build configuration list for PBXProject "MTMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09BC76471AD9EEF0005FCA75;
+			productRefGroup = 09BC76511AD9EEF0005FCA75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09BC764F1AD9EEF0005FCA75 /* MTMusic */,
+				09BC76681AD9EEF0005FCA75 /* MTMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09BC764E1AD9EEF0005FCA75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BC765F1AD9EEF0005FCA75 /* Main.storyboard in Resources */,
+				09BC76641AD9EEF0005FCA75 /* LaunchScreen.xib in Resources */,
+				09BC76611AD9EEF0005FCA75 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BC76671AD9EEF0005FCA75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B491FA258D32C136585BB6DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA5DFD3FED4EA4A059B2B533 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09BC764C1AD9EEF0005FCA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BC765C1AD9EEF0005FCA75 /* ViewController.m in Sources */,
+				09BC76591AD9EEF0005FCA75 /* AppDelegate.m in Sources */,
+				09BC76561AD9EEF0005FCA75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BC76651AD9EEF0005FCA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BC76701AD9EEF0005FCA75 /* MTMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09BC766B1AD9EEF0005FCA75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09BC764F1AD9EEF0005FCA75 /* MTMusic */;
+			targetProxy = 09BC766A1AD9EEF0005FCA75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09BC765D1AD9EEF0005FCA75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09BC765E1AD9EEF0005FCA75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09BC76621AD9EEF0005FCA75 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09BC76631AD9EEF0005FCA75 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09BC76711AD9EEF0005FCA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		09BC76721AD9EEF0005FCA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09BC76741AD9EEF0005FCA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6352217FC209F414290DC3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/benWhittle/Documents/ios-sdk-7",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = MTMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09BC76751AD9EEF0005FCA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02753B82CE55FBED3776002 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/benWhittle/Documents/ios-sdk-7",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = MTMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09BC76771AD9EEF0005FCA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MTMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTMusic.app/MTMusic";
+			};
+			name = Debug;
+		};
+		09BC76781AD9EEF0005FCA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MTMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTMusic.app/MTMusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09BC764B1AD9EEF0005FCA75 /* Build configuration list for PBXProject "MTMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BC76711AD9EEF0005FCA75 /* Debug */,
+				09BC76721AD9EEF0005FCA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09BC76731AD9EEF0005FCA75 /* Build configuration list for PBXNativeTarget "MTMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BC76741AD9EEF0005FCA75 /* Debug */,
+				09BC76751AD9EEF0005FCA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09BC76761AD9EEF0005FCA75 /* Build configuration list for PBXNativeTarget "MTMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BC76771AD9EEF0005FCA75 /* Debug */,
+				09BC76781AD9EEF0005FCA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09BC76481AD9EEF0005FCA75 /* Project object */;
+}
