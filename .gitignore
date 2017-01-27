@@ -1,4 +1,3 @@
 *.xcworkspace
 MTMusic/Podfile.lock
-MTMusic/Pods/
-MTNode/node_modules/
+MTMusic/Pods
